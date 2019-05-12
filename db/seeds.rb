@@ -104,3 +104,46 @@ story_book_five = StoryBook.create!(tag: "You belong here", user_id:2, story_id:
 story_book_six = StoryBook.create!(tag: "Who's grumpy today?", user_id:2, story_id:4, character_id: 1)
 
 # User.all.first.story_books.first.story.character
+
+Race.create(name: "Asian")
+Race.create(name: "Biracial")
+Race.create(name: "Black")
+Race.create(name: "Hispanic")
+Race.create(name: "Latino")
+Race.create(name: "Native American")
+Race.create(name: "White")
+
+
+Gender.create(name: "boy")
+Gender.create(name: "gender non-conforming person")
+Gender.create(name: "girl")
+Gender.create(name: "non-binary person")
+Gender.create(name: "transboy")
+Gender.create(name: "transgirl")
+
+
+PronounOne.create(name: "he")
+PronounOne.create(name: "she")
+PronounOne.create(name: "ze")
+PronounOne.create(name: "they")
+
+PronounTwo.create(name: "himself")
+PronounTwo.create(name: "herself")
+PronounTwo.create(name: "themslef")
+PronounTwo.create(name: "zimself")
+PronounTwo.create(name: "hirself")
+
+PronounThree.create(name: "her")
+PronounThree.create(name: "hirs")
+PronounThree.create(name: "his")
+PronounThree.create(name: "their")
+PronounThree.create(name: "zirs")
+
+PronounFour.create(name: "her")
+PronounFour.create(name: "him")
+PronounFour.create(name: "them")
+PronounFour.create(name: "zir")
+
+adjective = [“brave”, “feminist”, “friendly”, “happy”, “kind”, “sad”, “sensitive”, “smart”, “strong”]
+character_description_one = [“appreciated nature”, “enjoyed playing games”, “loved reading books”, “was interested in astronomy”]
+character_description_ two = [“a person on the autism spectrum”, “a person with visual disability”, “a wheelchair user”, “able-bodied”]
