@@ -1,22 +1,24 @@
 <br><br>
+<div id="form">
 
 <h1>Now, story time!</h1>
 
 <% if @errors && @errors.any? %>
-<ul class="errors">
-  <% @errors.each do |error| %>
-  <li>
-    <%= error %>
-  </li>
-  <% end %>
-</ul>
+<ul class="errors"> <p>
+<strong>Oh-oh! Fix these errors to move on:</strong>
+</p>
+<% @errors.each do |error| %>
+<li>
+  <%= error %>
+</li>
 <% end %>
+</ul>
+<% end %> <br>
 
 <%= form_for @story_book do |f| %>
 
-<%= f.label :character_id %>'s name:
-<%= @character.name.titleize %><br>
-<%= f.hidden_field :character_id, value: @character.id %>
+<p><%= f.label :character_id, :style => "display: inline" %>'s name: <font color=#EB3E37><strong><%= @story_book.character.name.titleize %></strong></font><br></p>
+<%= f.hidden_field :character_id, value: @story_book.character.id %>
 
 <%= f.label :story_id, "Main issue:" %>
 <%= f.collection_select :story_id, Story.order(:issue).all, :id, :issue, :prompt => '~select the main issue~' %><br>
@@ -24,9 +26,10 @@
 <%= f.label :tag, "How would you like to entitle your story?" %>
 <%= f.text_field :tag %> <br>
 
-<%= f.label :comment %> (just for yourself):
-<%= f.text_field :comment %><br><br>
+<br><br>
 
-<%= f.submit 'Read your story!'%><br>
+<%= f.submit 'Read your story!', :style => "color: #0E2B3F; font-size: 20pt; border: 2px solid; background-color: lightgreen; padding: 15px 20px; border-radius: 20px;"%><br>
 
 <% end %>
+
+</div>

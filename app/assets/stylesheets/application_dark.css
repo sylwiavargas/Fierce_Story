@@ -1,3 +1,11 @@
+* {
+  background-color: #222324;
+}
+
+* {
+  font-family: 'Monaco';
+}
+
 @keyframes bounceIn {
   0% {
     transform: scale(0.1);
@@ -18,7 +26,7 @@
 }
 
 @font-face {
-  font-family: 'Monaco';
+font-family: 'Monaco';
 }
 
 * {
@@ -38,7 +46,7 @@
   text-align: left;
   text-decoration: none;
   font-style: normal;
-  color: #EB3E37;
+  color: #f57d7d;
 }
 
 #welcome p {
@@ -46,24 +54,24 @@
   text-align: left;
   text-decoration: none;
   font-style: normal;
-  color: #0E2B3F;
+  color: #BCD5CF;
   font-size: 20pt;
 }
 
 #welcome h1 {
-  font-family: 'Cupertino';
-  display: block;
-  margin-block-start: 0.2em;
-  margin-block-end: 0.1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  line-height: 0.8em;
-  font-weight: bold;
-  font-size: 230pt;
-  animation-duration: 2s;
-  animation-name: bounceIn;
-  animation-fill-mode: forwards;
-  /* animation-direction: reverse; */
+    font-family: 'Cupertino';
+    display: block;
+    margin-block-start: 0.2em;
+    margin-block-end: 0.1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    line-height: 0.8em;
+    font-weight: bold;
+    font-size: 230pt;
+    animation-duration: 2s;
+    animation-name: bounceIn;
+    animation-fill-mode: forwards;
+    background: transparent;
 }
 
 #welcome h2 {
@@ -74,6 +82,7 @@
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
+        color: #BCD5CF;
     font-size: 80pt;
 }
 
@@ -89,9 +98,6 @@
     text-align: center;
     display: inline-block;
     border-radius: 20px;
-    /* animation-duration: 2s;
-    animation-name: bounceIn;
-    animation-direction: reverse; */
     }
 
 #welcome a:visited {
@@ -109,13 +115,24 @@
     }
 
 #welcome a:hover {
-color: #EB3E37;
+color: #f57d7d;
 text-decoration: underline;
 }
 
 #welcome a:active {
 color: blue;
 text-decoration: underline;
+}
+
+#welcome input {
+    font-family: 'Monaco';
+    display: block;
+    margin-block-start: 0.4em;
+    margin-block-end: 0.4em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 20pt;
+    color: #BCD5CF;
 }
 
 #standard_page {
@@ -126,7 +143,6 @@ text-decoration: underline;
 
 #standard_page h1 {
     display: block;
-    font-family: 'Cupertino';
     margin-block-start: 0.2em;
     margin-block-end: 0.2em;
     margin-inline-start: 0px;
@@ -137,12 +153,12 @@ text-decoration: underline;
 
 #standard_page h2 {
     display: block;
-    font-family: 'Cupertino';
     margin-block-start: 0.4em;
     margin-block-end: 0.4em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
+        color: #BCD5CF;
     font-size: 60pt;
 }
 
@@ -155,6 +171,7 @@ text-decoration: underline;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
+    color: #BCD5CF;
     font-size: 20pt;
 }
 
@@ -165,6 +182,7 @@ text-decoration: underline;
     margin-block-end: 0.4em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+    color: #BCD5CF;
     font-size: 20pt;
 }
 
@@ -176,6 +194,7 @@ text-decoration: underline;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-size: 20pt;
+    color: white;
 }
 
 #standard_page a:link {
@@ -200,7 +219,7 @@ text-decoration: underline;
 }
 
 #standard_page a:hover {
-  color: #EB3E37;
+  color: #f57d7d;
   text-decoration: underline;
 }
 
@@ -219,7 +238,7 @@ text-decoration: underline;
     text-align: left;
     text-decoration: none;
     font-style: normal;
-    color: #EB3E37;
+    color: #f57d7d;
     display: block;
     margin-block-start: 0.2em;
     margin-block-end: 0.2em;
@@ -236,6 +255,7 @@ text-decoration: underline;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: none;
+        color: #BCD5CF;
     font-size: 30pt;
 }
 
@@ -246,6 +266,7 @@ text-decoration: underline;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
+    color: #BCD5CF;
     font-size: 20pt;
 }
 
@@ -256,6 +277,7 @@ text-decoration: underline;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: none;
+        color: #BCD5CF;
     font-size: 20pt;
 }
 
@@ -266,6 +288,7 @@ text-decoration: underline;
     margin-block-end: 0.4em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+        color: #BCD5CF;
     font-size: 20pt;
 }
 
@@ -300,7 +323,7 @@ text-decoration: underline;
 }
 
 #homepage a:hover {
-  color: #EB3E37;
+  color: #f57d7d;
   text-decoration: underline;
 }
 
@@ -314,17 +337,12 @@ text-decoration: underline;
   margin: 0 auto;
 }
 
-#story img {
-  -webkit-filter: invert(1);
-  filter: invert(1);
-  }
-
 #story h1 {
     font-family: 'Cupertino';
     text-align: left;
     text-decoration: none;
     font-style: normal;
-    color: #EB3E37;
+    color: #f57d7d;
     display: block;
     margin-block-start: 0.4em;
     margin-block-end: 0.4em;
@@ -344,6 +362,7 @@ text-decoration: underline;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: none;
+        color: #BCD5CF;
     font-size: 30pt;
 }
 
@@ -354,6 +373,7 @@ text-decoration: underline;
     margin-inline-start: 0px;
     margin-inline-end: 0px; */
     font-weight: none;
+    color: #BCD5CF;
     font-size: 20pt;
 }
 
@@ -364,6 +384,7 @@ text-decoration: underline;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: none;
+        color: #BCD5CF;
     font-size: 20pt;
 }
 
@@ -374,6 +395,7 @@ text-decoration: underline;
     margin-block-end: 0.4em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+        color: #BCD5CF;
     font-size: 20pt;
 }
 
@@ -408,7 +430,7 @@ text-decoration: underline;
 }
 
 #story a:hover {
-  color: #EB3E37;
+  color: #f57d7d;
   text-decoration: underline;
 }
 
@@ -428,9 +450,8 @@ text-decoration: underline;
     text-align: left;
     text-decoration: none;
     font-style: normal;
-    color: #0E2B3F;
+    color: #BCD5CF;
     display: block;
-    line-height: 1em;
     margin-block-start: 0.4em;
     margin-block-end: 0.4em;
     margin-inline-start: 0px;
@@ -447,8 +468,8 @@ text-decoration: underline;
       margin-inline-start: 0px;
       margin-inline-end: 0px;
       font-weight: bold;
-      color: #EB3E37;
-      font-size: 60pt;
+          color: #BCD5CF;
+      font-size: 80pt;
 }
 
 #form p {
@@ -458,12 +479,12 @@ text-decoration: underline;
     margin-inline-start: 0px;
     margin-inline-end: 0px; */
     font-weight: none;
-    color: #0E2B3F;
+    color: #BCD5CF;
     font-size: 20pt;
 }
 
 #form li {
-    background: #B0D8C3;
+    /* background: #B0D8C3; */
     display: block;
     width: 45%;
     /* margin-block-start: 0.4em;
@@ -471,7 +492,7 @@ text-decoration: underline;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: none;
-    color: #0E2B3F;
+        color: #BCD5CF;
     font-size: 20pt;
 }
 
@@ -482,7 +503,7 @@ text-decoration: underline;
     margin-block-end: 0.4em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-        color: #0E2B3F;
+            color: #BCD5CF;
     font-size: 20pt;
 }
 
@@ -493,7 +514,7 @@ text-decoration: underline;
     margin-block-end: 0.4em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    color: #0E2B3F;
+        color: #BCD5CF;
     font-size: 20pt;
 }
 
@@ -505,6 +526,7 @@ text-decoration: underline;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-size: 20pt;
+    color: #BCD5CF;
 }
 
 #form a:link {
@@ -528,7 +550,7 @@ text-decoration: underline;
 }
 
 #form a:hover {
-  color: #EB3E37;
+  color: #f57d7d;
   text-decoration: underline;
 }
 
@@ -556,16 +578,12 @@ text-decoration: underline;
   justify-content: left;
 }
 
-.pull-right {
-  float:right;
-}
-
 #header h1 {
     font-family: 'Cupertino';
     text-align: left;
     text-decoration: none;
     font-style: normal;
-    color: #EB3E37;
+    color: #f57d7d;
     display: block;
     margin-block-start: 0.2em;
     margin-block-end: 0.2em;
@@ -582,6 +600,7 @@ text-decoration: underline;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: none;
+        color: #BCD5CF;
     font-size: 30pt;
 }
 
@@ -592,6 +611,7 @@ text-decoration: underline;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
+    color: #BCD5CF;
     font-size: 20pt;
 }
 
@@ -602,6 +622,7 @@ text-decoration: underline;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: none;
+        color: #BCD5CF;
     font-size: 20pt;
 }
 
@@ -612,6 +633,7 @@ text-decoration: underline;
     margin-block-end: 0.4em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+        color: #BCD5CF;
     font-size: 20pt;
 }
 
@@ -639,8 +661,6 @@ text-decoration: underline;
   border-radius: 20px;
 }
 
-
-
 #header a:visited {
   font-family: 'Cupertino';
   text-decoration: none;
@@ -648,7 +668,7 @@ text-decoration: underline;
 }
 
 #header a:hover {
-  color: #EB3E37;
+  color: #f57d7d;
   text-decoration: underline;
 }
 
