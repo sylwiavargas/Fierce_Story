@@ -1,5 +1,3 @@
-*= require fonts
-
 * {
   background-color: #222324;
 }
@@ -44,7 +42,7 @@ font-family: 'Monaco';
 }
 
 #welcome {
-  font-family: 'fonts/Cupertino.tff' format('truetype');
+  font-family: 'Cupertino.tff' format('truetype');
   text-align: left;
   text-decoration: none;
   font-style: normal;
