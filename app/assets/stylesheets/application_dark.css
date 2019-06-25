@@ -42,7 +42,7 @@ font-family: 'Monaco';
 }
 
 #welcome {
-  font-family: '/assets/fonts/Cupertino';
+  font-family: '/assets/fonts/Cupertino.tff' format('truetype');
   text-align: left;
   text-decoration: none;
   font-style: normal;
