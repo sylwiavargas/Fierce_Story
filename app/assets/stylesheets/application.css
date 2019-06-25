@@ -1,3 +1,5 @@
+*= require fonts
+
 @keyframes bounceIn {
   0% {
     transform: scale(0.1);
@@ -14,7 +16,7 @@
 
 @font-face {
   font-family: 'Cupertino';
-  src: url('fonts/Cupertino.ttf') format('truetype');
+  src: url('Cupertino.ttf') format('truetype');
 }
 
 @font-face {
