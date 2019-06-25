@@ -38,9 +38,6 @@ PronounFour.create(name: "them")
 PronounFour.create(name: "zir")
 #
 #
-user1 = User.create!(name: "SYLWIA", username: "sylwia", password: "sylwia", email: "sylwia@gmail.com")
-user2 = User.create!(name: "Joel", username: "jo", password: "123456", email: "jo@gmail.com")
-User.create!(name: "Kind Tester", username:"be", password: "brave", email: "bebrave@gmail.com")
 
 char = Character.create!(name: "Bo", gender_id: 1, adjective: "feminist", character_description_one: "appreciated nature", character_description_two: "a wheelchair user", pronoun_one_id: 1, pronoun_two_id: 1, pronoun_three_id: 3, pronoun_four_id: 2, race_id: 4)
 char2 = Character.create!(name: "Faren", gender_id: 4, race_id: 3, pronoun_one_id: 3, pronoun_two_id: 4, pronoun_three_id: 5, pronoun_four_id: 4, adjective: "kind", character_description_one: "loved reading books", character_description_two: "a wheelchair user")
