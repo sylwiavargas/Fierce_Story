@@ -1,5 +1,5 @@
 require_relative 'boot'
-*= require fonts
+require './fonts'
 
 require 'rails/all'
 
