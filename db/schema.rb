@@ -79,7 +79,6 @@ ActiveRecord::Schema.define(version: 2019_05_10_134349) do
     t.string "issue"
     t.string "author"
     t.string "url"
-    t.integer "character_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
