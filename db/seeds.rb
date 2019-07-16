@@ -1,3 +1,24 @@
+Race.destroy_all
+Gender.destroy_all
+PronounOne.destroy_all
+PronounTwo.destroy_all
+PronounThree.destroy_all
+PronounFour.destroy_all
+Character.destroy_all
+Story.destroy_all
+StoryBook.destroy_all
+User.destroy_all
+Race.reset_pk_sequence
+Gender.reset_pk_sequence
+PronounOne.reset_pk_sequence
+PronounTwo.reset_pk_sequence
+PronounThree.reset_pk_sequence
+PronounFour.reset_pk_sequence
+Character.reset_pk_sequence
+Story.reset_pk_sequence
+StoryBook.reset_pk_sequence
+User.reset_pk_sequence
+
 Race.create(name: "Asian")
 Race.create(name: "Biracial")
 Race.create(name: "Black")
@@ -38,6 +59,8 @@ PronounFour.create(name: "them")
 PronounFour.create(name: "zir")
 #
 #
+user1 = User.create!(name: "SYLWIA", username: "sylwia", password: "sylwia", email: "sylwia@gmail.com")
+user2 = User.create!(name: "be", username: "be", password: "brave", email: "bebrave@gmail.com")
 
 char = Character.create!(name: "Bo", gender_id: 1, adjective: "feminist", character_description_one: "appreciated nature", character_description_two: "a wheelchair user", pronoun_one_id: 1, pronoun_two_id: 1, pronoun_three_id: 3, pronoun_four_id: 2, race_id: 4)
 char2 = Character.create!(name: "Faren", gender_id: 4, race_id: 3, pronoun_one_id: 3, pronoun_two_id: 4, pronoun_three_id: 5, pronoun_four_id: 4, adjective: "kind", character_description_one: "loved reading books", character_description_two: "a wheelchair user")
