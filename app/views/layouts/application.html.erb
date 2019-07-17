@@ -19,7 +19,7 @@
 
     <header>
       <%= render 'layouts/header' %>
-      
+
       <% if @notification %>
         <p class="message">
           <%= @notification %>
@@ -28,6 +28,7 @@
 
     </header>
     <%= yield %>
-
+    
+    <%= render 'layouts/footer' %>
   </body>
 </html>
